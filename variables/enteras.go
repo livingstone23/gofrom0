@@ -2,6 +2,7 @@ package variables
 
 import "fmt"
 
+//First examples of integers
 func ShowIntegers() {
 	//Definir variables in declarative way
 	var intcoumn int

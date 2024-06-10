@@ -6,5 +6,14 @@ import (
 
 // main function
 func main() {
-	variables.ShowIntegers()
+
+	//Primera funcion declarada
+	//variables.ShowIntegers()
+
+	//Segunda funcion declarada
+	variables.RestVariables()
+
+	//Tercera funcion declarada
+	variables.CastToText(10)
+
 }
