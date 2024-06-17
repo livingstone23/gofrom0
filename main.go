@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/livingstone23/gofrom0/arreglos_slices"
+	d "github.com/livingstone23/gofrom0/defer_panic"
 )
 
 // main function
@@ -67,6 +67,23 @@ func main() {
 	//Arreglos y slices
 	//arreglos_slices.MuestraArreglos()
 	//arreglos_slices.MuestroSlices()
-	arreglos_slices.Capicidad()
+	//arreglos_slices.Capicidad()
+
+	//"github.com/livingstone23/gofrom0/mapas"
+	//mapas.MostrarMapas()
+
+	//github.com/livingstone23/gofrom0/users
+	//users.AltaUsuario()
+
+	//e "github.com/livingstone23/gofrom0/ejer_interfaces"
+	//m "github.com/livingstone23/gofrom0/model"
+	//Livingstone := new(m.Men)
+	//e.HumanRespirar(Livingstone)
+
+	//Maria := new(m.Woman)
+	//e.HumanRespirar(Maria)
+
+	//d.VemosDefer()
+	d.EjemploPanic()
 
 }
